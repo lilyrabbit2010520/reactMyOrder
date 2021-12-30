@@ -2,6 +2,7 @@
   {
     "id": 1,
     "shop": "Juice Shop",
+    "product":"Orange Juice",
     "picture":"https://www.alphafoodie.com/wp-content/uploads/2020/11/Orange-Juice-1-of-1.jpeg",
     "price": 25.0,
     "ifCommented": false
@@ -9,13 +10,15 @@
   {
     "id": 2,
     "shop": "Tea Shop",
-    "picture": "https://www.news-medical.net/image.axd?picture=2018%2F4%2Fshutterstock_1By_stockcreations.jpg",
+    "product":"Green tea",
+    "picture":"https://upload.wikimedia.org/wikipedia/commons/3/37/Nice_Cup_of_Tea.jpg",
     "price": 19.0,
     "ifCommented": true
   },
   {
     "id": 3,
     "shop": "Cafe Shop",
+    "product":"Moca",
     "picture":"https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg", 
     "price": 20.99,
     "ifCommented": false
@@ -23,6 +26,7 @@
   {
     "id": 4,
     "shop": "Water Shop",
+    "product":"Spring water",
     "picture":"https://domf5oio6qrcr.cloudfront.net/medialibrary/7909/b8a1309a-ba53-48c7-bca3-9c36aab2338a.jpg", 
     "price": 21.0,
     "ifCommented": true

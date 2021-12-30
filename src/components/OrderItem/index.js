@@ -26,14 +26,14 @@ class OrderItem extends Component {
           <div>
             {ifCommented ? (
               <button
-                className="orderItem_btn
+                className="orderItem__btn
                   orderItem__btn--grey"
               >
                 Commented
               </button>
             ) : (
               <button
-                className="orderItem_btn
+                className="orderItem__btn
                 orderItem__btn--red"
                 onClick={this.handleOpenEditArea}
               >
@@ -79,11 +79,12 @@ class OrderItem extends Component {
           const lightClass = stars >= item ? "orderItem__star--light" : "";
           return (
             <span
-              className={"orderItem__star" + lightClass}
+              className={"orderItem__star " + lightClass}
+
               key={index}
               onClick={this.handleClikcStars.bind(this, item)}
             >
-              ☆
+              ★
             </span>
           );
         })}
@@ -104,7 +105,7 @@ class OrderItem extends Component {
 
   handleClikcStars = (stars) => {
     this.setState({
-      stars: stars,
+      stars: stars
     });
   };
   handleCancelComment = () => {
